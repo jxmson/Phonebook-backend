@@ -1,0 +1,19 @@
+GET http://localhost:3002/api/persons/1
+
+###
+GET http://localhost:3002/api/persons
+
+###
+DELETE http://localhost:3002/api/persons/486
+
+###
+GET http://localhost:3002/info
+
+###
+POST http://localhost:3002/api/persons/ 
+content-type: application/json
+
+{
+    "name": "Nthabe",
+    "number": "123-456"
+}
